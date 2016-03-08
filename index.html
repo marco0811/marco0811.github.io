@@ -3,15 +3,43 @@
 <html lang="en">
 
 <head>
-<link rel="shortcut icon" href="http://faviconist.com/icons/1429c73841572d10a06ca5b7428df950/favicon.ico" /> 
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Marco's Interactive Portfolio">
+    <meta name="description" content="Marco Carvallo's Interactive Resume">
     <meta name="author" content="Marco Carvallo">
-    <META NAME="ROBOTS" CONTENT="NOINDEX, FOLLOW">
 
     <title>Marco Carvallo</title>
+
+
+    <style>
+
+    h1.name {
+
+  color: #FFF;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+     }
+       h3.name {
+
+  color: #FFF;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+    }
+  </style>
+
+
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,83 +47,16 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
-
-
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-<style>
-  section#contact {
-    background-font: #FAFAFA;
-    border-radius: 1560px 1560px 0px 0px;
-  }
-  
-  h1.name {
-  
-  color: #FFF;
-  color: white;
-  text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
-     
-     }
-       h4.name {
-  
-  color: #FFF;
-  color: white;
-  text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
-     
-     }
-     
-     h3.name {
-     
-       color: #FFF;
-  color: white;
-  text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
-     
-     }
-     
-     .img-circle {
-
-border-radius:50%;
-border:3px;
-border-style:solid;
-border-color:rgba(128, 128, 128, 0.22);
-}
-
-
-
-
-</style>
-
-    <!-- Google Tracking-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-64530120-1', 'auto');
-  ga('send', 'pageview');
-</script>
 
 </head>
 
@@ -106,31 +67,40 @@ border-color:rgba(128, 128, 128, 0.22);
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <!--<li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
-            </li> -->
-            <li>
-                <strong><a href="#top" onclick = $("#menu-close").click(); >Home</a></strong>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Links</a>
             </li>
             <li>
-                <strong><a href="#about" onclick = $("#menu-close").click(); >About</a></strong>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
             </li>
             <li>
-                <strong><a href="#services" onclick = $("#menu-close").click(); >Résumé</a></strong>
+                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+            </li>
+
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Experience</a>
             </li>
             <li>
-                <strong><a href="#contact" onclick = $("#menu-close").click(); >Contact</a></strong>
+                <a href="#contact" onclick = $("#menu-close").click(); >Portfolio</a>
+            </li>
+	     <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
             </li>
         </ul>
     </nav>
 
     <!-- Header -->
+
     <header id="top" class="header">
         <div class="text-vertical-center">
-          <h1 class="name" ><strong>Marco Carvallo</strong></h1>
-            <h4 class="name" ><strong>IT Professional | Security | Networking</strong></h4>
+            <h1 class="name" >Marco Carvallo</h1>
+            <h3 class="name" >| IT Professional | Security | Networking</h3>
             <br>
-            <a href="#about" class="btn btn-lg"><img src="img/arrow.png" " alt="logo"></a>
+
+
+   <a href="#about" class="btn btn-lg"><img height="50" width="50" src="img/arrow.jpg" " alt="logo"></a>
+
+
 
         </div>
     </header>
@@ -140,104 +110,45 @@ border-color:rgba(128, 128, 128, 0.22);
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                     <h1><strong><center>ABOUT</center></strong></h1>
-                     <hr class="small">
-                  &nbsp;  
-                    <div><center><img class="img-circle img-responsive" align="center" src="img/picture.jpg" alt="logo"></center> </div>
-                      &nbsp;           
-                    <h2><center><strong>HI, MY NAME IS MARCO CARVALLO</strong></center></h2>
-                     &nbsp;
-                    <h3><center>I'm a Senior at Florida State University pursuing a Bachelor of Science degree in Information Technology.<br> I graduate in August 2016</center></h3>  
-                    &nbsp;
-                    <hr class="large">
-                      </div>
-                    <!-- /.row (nested) -->
+                    <h2>ABOUT ME</h2>
+     <hr class="small">
+                    <div class="row">
+
+		    &nbsp;
+                    <div><center><img class="img-circle img-responsive" align="center" src="img/profile.jpg" alt="logo"></center> </div>
+                      &nbsp;
+                    <p class="lead">Want the perfect liaison between IT and Business? Look no further. A proven student leader at The Florida State University currently focusing on the Information Technology (IT) industry and pursuing a minor in Business. Extensive skills in data analysis, customer interfacing, team leadership, and networking. Currently an intern at the largest security company in North America, ADT. Graduating in April 2016, and begin working in Los Angeles, California in June 2016. Please contact me using the links below for potential opportunities. 
+
+<br><br>
+<a href="TanmayMehrotraResume.pdf" class="btn btn-dark btn-lg">Resume</a>
+
                 </div>
-                <!-- /.col-lg-10 -->
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
     </section>
-                    
-                    
-                    <section id="services" class="services bg-primary">
-                    <div class="container">
-                    <br><br> <br> <br>   
-                    
-                    
-                                 <h1><strong><center>EDUCATION</center></strong></h1>
-             <hr class="small">       <br><br>     
-                         <div class="col-md-6">
-            <br>
-          <center><img class="img-responsive" href""  src="img/fsulogo.png" alt="FSU"></center></a> &nbsp;          
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>EDUCATION</h2>
+     <hr class="small">
+                    <div class="row">
+
+
+
+          <center><img class="img-responsive" href""  src="img/fsulogo.jpg" alt="FSU"></center></a> &nbsp;
                 <h4><center><strong>Florida State University</strong></center></h4>
-                <center><i><p style="font-size:15px">Bachelor of Science Degree Information Technology</center></i></p>
-                <center><p style="font-size:15px">(August 2014 - May 2016)</center></p> <br><br><br><br>
-            </div>
-              
-              <div class="col-md-6">
-              <br>
-                <center><img class="img-responsive" src="img/valencia.gif" alt="VALENCIA"></center> &nbsp;
-                <h4><center><strong>Valencia College</strong></center></h4>
-                <center><i><p style="font-size:15px">Associate of Arts Degree</center></i></p> 
-                <center><p style="font-size:15px">(August 2012 - April 2014)</center></p>   <br><br><br><br>
-                <br>  
-            </div>   
-                            
-                    
-                    <h1><strong><center>EXPERIENCE</center></strong></h1>
-                    <hr class="small">
-                    <br><br>
-            <div class="col-md-6">
-            <br>
-          <center><a href="http://fitc.cci.fsu.edu/about-fitc/student-ambassadors/" target="_blank"><img class="img-responsive img-rounded" href""  src="img/fitc.png" alt="FITC"></center></a> &nbsp;          
-                <h4><center><strong>Student Ambassador | Florida IT Career Alliance</strong></center></h4>
-                <center><p style="font-size:15px">(July 2015 - Present)</center></p>
-                <center><p style="font-size:14px">As a Student Ambassador, my mission is to promote Information Technology, Computer Science, and Engineering related concepts to the community. Help to recruit, retain, and employ Florida's next generation technology workforce. Encourage student interest in technology majors and careers.</p></center>  <br>
-            </div>
-              
-              <div class="col-md-6">
-              <br>
-                <center><a href="http://helpdesk.cci.fsu.edu/about/" target="_blank"><img class="img-responsive img-rounded" src="img/cci.png" alt="CCI"></center></a> &nbsp;
-                <h4><center><strong>Support Technician | Florida State University</strong></center></h4>
-                <center><p style="font-size:15px">(May 2015 - Present)</center></p>
-                <center><p style="font-size:14px">At the CCI HelpDesk, I coordinate support tickets and resources in order to resolve issues. Install, maintain, and troubleshoot our college's computer hardware and software. Train users on basic computer functions and software. Provide computer support via TeamViewer and telephone communications.</p></center>     <br>       
-            </div>                    
-             &nbsp;
-            <div class="row">
-            &nbsp;
+                <center><i><p style="font-size:15px">Bachelor of Science Degree in Information Technology</center></i></p>
+                <center><p style="font-size:15px">(January 2013 - May 2016)</center></p> <br><br><br><br>
 
-                <center><a href="http://iamforkids.org/who-we-are/what-we-do/" target="_blank"><img class="img-responsive img-rounded" src="img/tcc.jpg" alt="TCC"></center></a> &nbsp;
-                <h4><center><strong>Database Apprentice | The Children's Campaign</strong></center></h4>
-                <center><p style="font-size:15px">(March 2015 - August 2015)</center></p>
-                <center><p style="font-size:14px">During my internship at Children's Campaign, I was responsible for managing and organizing the <br> database and its subscribers. Other tasks included evaluating email response activity to create visual <br>represenations of the data, creating and setting up donation forms for newsletters. I also designed and <br>sent mass emails to users through a cloud-based email serivce call MailGun, or as I'd lke to call it SpamGun.</p></center> &nbsp;      
-                </div>
-                            <br><br><br> &nbsp;                  
-                            
-                            
-                                
-        <div class="row">
-&nbsp;
-         <h1><strong><center>LEADERSHIP</center></strong><h1>
-        <hr class="small">
-                 <br>
-                <center><a href="http://aitp.fsu.edu" target="_blank"><img class="img-responsive img-rounded" src="img/aitp.png" alt="aitp"></center></a> &nbsp;
-                <h4><center>Association of Information Technology Professionals </center></h4>
-                 <h4><center>Executive Board Member: Vice President</center></h4>
-                <center><p style="font-size:15px">(January 2015 - Present)</center></p>
-                <center><p style="font-size:14px">As Vice President of AITP, I am responsible for recruiting students in the Information Technology<br> and Communication major. I also plan annual fundraisers to raise money and gain membership.<br> My other involvment includes particpating in social events, chapter board meetings, and community service.<br> Just recently, I recreated our club website and made it mobile friendly, click our logo to view it!</p></center>       
-                </div>                       
-                         <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <a href="MarcosResume.pdf" target="_blank" class="btn btn-default btn-lg btn-active wow tada"><strong>Download R&#233;sum&#233;</strong></a>
 
-    
-         <br> <br> <br>                
-        <hr class="large">
-
-                         </div>
+                            </div>
+                        </div>
                     </div>
                     <!-- /.row (nested) -->
                 </div>
@@ -247,7 +158,91 @@ border-color:rgba(128, 128, 128, 0.22);
         </div>
         <!-- /.container -->
     </section>
-<section id="portfolio" class="services bg-primary">
+
+
+
+    <!-- Experience -->
+
+      <div class="container">
+ <div class="col-lg-10 col-lg-offset-1 text-center">
+   <br><br><br><br>
+            <h2>EXPERIENCE</h2>
+            <hr class="small">
+        </div>
+<br><br><br>
+
+<div class="col-md-6">
+            <br>
+          <center><a href="https://www.planted.com" target="_blank"><img class="img-responsive img-rounded" src="img/planted.jpg" alt="Planted" width="175" height="175"></center></a> &nbsp;
+                <h4><center><strong>Campus Ambassador</strong></center></h4>
+                <center><p style="font-size:15px">(September 2015 - Present)</center></p>
+                <center><p style="font-size:14px"><p></p>
+            </div>
+
+              <div class="col-md-6">
+              <br>
+                <center><a href="http://www.adt.com" target="_blank"><img class="img-responsive img-rounded" src="img/adtpulselogo.jpg" alt="ADT" width="175" height="175"></center></a> &nbsp;
+                <h4><center><strong>Pulse Engineer Intern</strong></center></h4>
+                <center><p style="font-size:15px">(June 2015 - August 2015)</center></p>
+                <center><p style="font-size:14px"><p></p>
+            </div>
+
+
+              <div class="col-md-6"
+            <br>
+                            <center><a href="http://www.properchannel.co" target="_blank"><img class="img-responsive img-rounded" src="img/PC.jpg" alt="Proper Channel" width="175" height="175"></center></a> &nbsp;
+                            <h4><center><strong>Marketing Intern</strong></center></h4>
+                            <center><p style="font-size:15px">(February 2015 - May 2015)</center></p>
+                            <center><p style="font-size:14px"><p></p>
+                            </div>
+
+
+
+
+ <div class="col-md-6">
+              <br>
+                <center><a href="http://www.adt.com" target="_blank"><img class="img-responsive img-rounded" src="img/adtlogo.jpg" alt="ADT" width="175" height="175"></center></a> &nbsp;
+                <h4><center><strong>Business Analyst for IT Operations</strong></center></h4>
+                <center><p style="font-size:15px">(June 2014 - August 2014)</center></p>
+                <center><p style="font-size:14px"><p></p>
+            </div>
+
+&nbsp;
+            <div class="col-md-6">
+            &nbsp;
+
+                <center><a href="http://studyedge.com/fsu/" target="_blank"><img class="img-responsive img-rounded" src="img/StudyEdge.jpg" alt="" width="175" height="175"></center></a> &nbsp;
+                <h4><center><strong>Academic Intern</strong></center></h4>
+                <center><p style="font-size:15px">(August 2013 - Jan 2014)</center></p>
+                <center><p style="font-size:14px"><p></p>
+                </div>
+                            <br><br><br> &nbsp;
+
+
+
+
+ <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+  <section id="portfolio" class="services bg-primary">
       <div class="container">
           <div class="row text-center">
               <div class="col-lg-10 col-lg-offset-1">
@@ -301,29 +296,37 @@ border-color:rgba(128, 128, 128, 0.22);
           <!-- /.row -->
       </div>
       <!-- /.container -->
-  </div></section>
-        
-        
-  
- &nbsp;
+  </section>
+
+
+
+
+
     <!-- Footer -->
-      <section id="contact" class="map">
+
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-              
-                 <h2><strong>Connect With Me!</strong></h2>
-          &nbsp;
-                 
-                            
-                             <a href="https://www.linkedin.com/in/marcocarvallo" target="_blank"><center><img class="img-responsive" src="img/linkedin.png" alt="logo"></center></a>
-                       
+                    <h4><strong>Tanmay Mehrotra</strong>
+                    </h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (561) 870-5326</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:tanmehrotra@gmail.com">tanmehrotra@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.linkedin.com/in/tmehrotra"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Tanmay Mehrotra  &copy; 2016</p>
                 </div>
             </div>
         </div>
     </footer>
-</section>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -362,21 +365,7 @@ border-color:rgba(128, 128, 128, 0.22);
         });
     });
     </script>
-    
-    
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-64530120-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-            
-                
 </body>
- <h6 class="copyright" align="center"> Marco Carvallo &copy; 2016</h6>
 
 </html>
